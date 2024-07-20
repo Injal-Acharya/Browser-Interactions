@@ -1,3 +1,4 @@
+
 alert("Enter the value of I")
 let I = prompt("Enter here:")
 I = Number.parseInt(I)
@@ -9,3 +10,14 @@ if(rit) {
 else {
     document.write(" Please Allow Me To Write!!")
 }
+
+
+//DOM
+
+//document.createElement
+let div = document.createElememt("div");
+
+// .textContent
+div.textContent = 'Hello World';
+
+console.log(div);
