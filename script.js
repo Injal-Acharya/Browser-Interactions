@@ -1,4 +1,4 @@
-
+/*
 alert("Enter the value of I")
 let I = prompt("Enter here:")
 I = Number.parseInt(I)
@@ -21,3 +21,19 @@ let div = document.createElememt("div");
 div.textContent = 'Hello World';
 
 console.log(div);
+*/
+//Practice Questions
+
+//Problem-1:
+let age = prompt("Age");
+age = Number.parseInt(Age);
+const CanDrive= (age) =>{
+    return (age >= 18? true: false);
+}
+
+if (CanDrive(age)) {
+    alert("Yes you can drive");
+}
+else {
+    alert("You cannot drive");
+}
